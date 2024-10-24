@@ -3,5 +3,11 @@ h1{
 }
 body {
     color: rgb(5, 91, 126);
-    background-color: rgba(248, 225, 190, 0.986);
+    background-color: rgba(251, 213, 163, 1);
+}
+
+.contactos {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
 }
