@@ -1,9 +1,14 @@
 h1{
-    color: blueviolet;
+    color: rgb(8, 8, 8);
+    text-align: center;
 }
 body {
-    color: rgb(5, 91, 126);
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 5px solid #01101a;
+    color: rgb(8, 8, 8);
     background-color: rgba(251, 213, 163, 1);
+    margin: 15px;
 }
 
 .contactos {
@@ -11,3 +16,33 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 }
+
+.contactos div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.contactos div img{
+    margin: 0 auto;
+border-radius: 50%;
+}
+
+.Yo{
+    
+    display: flex;
+    justify-content: center;
+
+}
+
+.Yo img{
+    border-radius: 50%;
+    width: 28rem;
+}
+
+.BienestarPsicoemocional{
+    display: flex;
+    justify-content: center;
+
+}
+
+
